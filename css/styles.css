@@ -1,0 +1,35 @@
+img {
+    width: 100%;
+}
+
+.grid-container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-areas: "topo topo"
+        "meio meio2"
+        "meiob meiob2"
+        "baixo baixo";
+    gap: 20px;
+
+
+    .img1 {
+        grid-area: topo;
+    }
+
+    .img2 {
+        grid-area: meio;
+    }
+
+    .img3 {
+        grid-area: meiob;
+    }
+
+    .img3 {
+        grid-area: meio
+    }
+
+    .img4 {
+        grid-area: baixo
+    }
+}
